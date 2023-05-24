@@ -1,4 +1,5 @@
-# elm-package generated files
-elm-stuff
-# elm-repl generated files
-repl-temp-*
+.DS_Store
+_config.yml
+.sass-cache
+_site
+.jekyll-cache

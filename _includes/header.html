@@ -1,0 +1,17 @@
+<header class="page-header">
+  <div class="container">
+    <a class="logo" href="https://project-ile.github.io">
+      <span>Project ILE</span>
+    </a>
+
+    <p class="page-header-icons">
+      <a href="https://github.com/project-ile" target="_blank">
+        <i class="fa fa-github"></i>
+      </a>
+    </p>
+
+    {% unless page.layout == 'index' %}
+    {% include share.html %}
+    {% endunless %}
+  </div>
+</header>
