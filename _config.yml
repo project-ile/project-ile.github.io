@@ -1,0 +1,7 @@
+name: ProjectILE
+description: A free resource to learn software project building
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude: ['images/original']
+permalink: /:categories/:title.html
